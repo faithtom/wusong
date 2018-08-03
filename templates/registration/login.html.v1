@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}Login{% endblock %}
+{% block content %}
+    <div class="row text-center vertical-middle-sm">
+        <h1>Login</h1>
+        <p>Input your username and password</p>
+        <form class="form-horizontal" action="." method="post">{% csrf_token %}  {#  action="."用于显示当前表单的提交地址，此模板对应的url,{% csrf_token %}是为了安全，免受CSRF攻击 #}
+            {{ form.as_p }}  {# 所有form表单内的p标签，都聚到一个p标签内统一管理，与之类似的还有as_ul 和“一table #}
+            <input type="submit" value="Login">
+        </form>
+    </div>
+{% endblock %}

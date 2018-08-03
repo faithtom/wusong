@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}app article{% endblock %}
+{% block content %}
+    <div class="row text-center vertical-middle-sm">
+        <h1>{{ article.title }}</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <p class="text-center"><span>{{ article.author.username }}</span>
+            <span style="margin-left:20px">{{ publish }}</span> </p>
+            <div>{{ article.body }}</div>
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <h2>广告</h2>
+            <p>跟我学：www.baidu.com</p>
+            <img width="200px" src="http://images.thehollywoodgossip.com/iu/s--8ziNn0p8--/t_full/f_auto,fl_lossy,q_75/v1477932106/madonna-fully-clothed.jpg">
+        </div>
+    </div>
+{% endblock %}

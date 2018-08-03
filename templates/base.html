@@ -1,0 +1,19 @@
+{% load staticfiles %}     {# 载入staic样式目录 #}
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1;IE=Edge">    {# 浏览器支持 #}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}{% endblock %}</title>      {# 定义可重写标题占位 #}
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">    {# 引用static/css的样式 #}
+    </head>
+    <body>
+        {% include "header.html" %}            {# 导入头栏 #}
+        <div class="container">                {# 定义网页主体 #}
+            {% block content %}{% endblock %}    {# 可重写主体占位 #}
+        </div>
+        {% include "footer.html" %}            {# 导入页脚栏 #}
+        {% block javascritp %}{% endblock %}   {# 可重写javascritp占位 #}
+    </body>
+</html>

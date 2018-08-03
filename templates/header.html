@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://www.helijia.com/"><img src="{% static '/images/login.png' %}" width="100px"></a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" role="navigation">
+                <li><a href="{% url 'blog:app_title' %}">BLOG</a></li>    {# 引用URLS.PY中的标题 #}
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="margin-right:10px">
+                {% if user.is_authenticated %}          {# 使用交互模式方法认证是否登录，如果登录成功 #}
+                    <li>
+                        <div class="dropdown" style="margin-top:8px">     {# 下拉菜单 #}
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown">  {# 按钮 #}
+                                {{ user.username }}          {# 显示用户名 #}
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">      {# 下拉菜单选项数 #}
+                                <li><a href="{% url 'account:password_change' %}">修改密码</a></li>
+                                <li><a href="{% url 'account:my_information' %}">个人信息</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="{% url 'account:user_logout' %}">Logout</a></li>                 {# 此处href留空，后续补 #}
+                {% else %}
+                    <li><a href="{% url 'account:user_login' %}">LOGIN</a></li>   {# 如果没有登录则跳到登录页面，此处调用的是URLS.PY中的user_login #}
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+</div>
+
+{#以下两个JavaScript：bootstrap提供的下拉菜单功能支持文件#}
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
