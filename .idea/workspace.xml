@@ -2,142 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fbd485-961f-4dd2-a110-90062fce1c32" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/32d4a106-f406-420d-8f1c-7e86b6c75eef.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/32d4a106-f406-420d-8f1c-7e86b6c75eef/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/602c8392-ee58-4c43-9bf2-7cb7a5a2eb32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/602c8392-ee58-4c43-9bf2-7cb7a5a2eb32/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/0002_userinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/views.py.v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/imagecrop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mansory-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/newton.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cropbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cropbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/csrf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/mp.mansory.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/madonna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/myself.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/myself_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/app_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/auth/user/add_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/auth/user/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/base_site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/change_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/change_list_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/date_hierarchy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/delete_confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/delete_selected_confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/edit_inline/stacked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/edit_inline/tabular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/includes/fieldset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/includes/object_delete_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/invalid_setup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/object_history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/popup_response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/prepopulated_fields_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/related_widget_wrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/search_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/submit_line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/titles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html.v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/recovery_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/recovery_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/recovery_email_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/recovery_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/password_reset/reset_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html.v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/cropbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/cropbox.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -232,7 +98,7 @@
       <file leaf-file-name="myself.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/account/myself.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="608">
               <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
@@ -497,10 +363,18 @@
       <option name="presentableId" value="Default" />
       <updated>1532180188499</updated>
     </task>
+    <task id="LOCAL-00001" summary="xcvscs">
+      <created>1533297834201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533297834201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="23" width="1440" height="793" extended-state="0" />
+    <frame x="38" y="23" width="1440" height="793" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -508,8 +382,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29885057" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14878398" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29885057" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14878398" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.23891273" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -531,6 +405,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xcvscs" />
+    <option name="LAST_COMMIT_MESSAGE" value="xcvscs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/account/myself.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="608">
           <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
